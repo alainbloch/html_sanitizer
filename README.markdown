@@ -13,8 +13,7 @@ html_sanitizer :sanitize => [:name, :description]
 
 If you wanted to customize the sanitizer (read the sanitize gem), simply add to the options hash:
 
-html_sanitizer :sanitize => [:name, :description],
-               :options  => Sanitize::Config::RESTRICTED
+html_sanitizer :sanitize => [:name, :description], :options  => Sanitize::Config::RESTRICTED
 
 
 Copyright (c) 2009 RubyMiner LLC, released under the MIT license
