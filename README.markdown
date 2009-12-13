@@ -17,3 +17,4 @@ html_sanitizer :sanitize => [:name, :description], :options  => Sanitize::Config
 
 
 Copyright (c) 2009 RubyMiner LLC, released under the MIT license
+================================================================
