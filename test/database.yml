@@ -1,0 +1,18 @@
+sqlite:
+  :adapter: sqlite
+  :dbfile: html_sanitizer_test.sqlite.db
+sqlite3:
+  :adapter: sqlite3
+  :dbfile: html_sanitizer_test.sqlite3.db
+mysql:
+  :adapter: mysql
+  :host: localhost
+  :username: root
+  :password:
+  :database: html_sanitizer_test
+postgresql:
+  :adapter: postgresql
+  :host: localhost
+  :username: root
+  :password: 
+  :database: html_sanitizer_test
